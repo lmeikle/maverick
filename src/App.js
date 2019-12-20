@@ -1,11 +1,14 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import '@fortawesome/fontawesome-free/css/all.min.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
+        <i className="fas fa-camera"></i>
+        <i className="fab fa-font-awesome"></i>
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
