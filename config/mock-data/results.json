@@ -1,0 +1,114 @@
+[
+  {
+    "_id": "5dfcf0bb7b91a5272af0415e",
+    "alert": "Warning",
+    "type": "Entity",
+    "ruleName": "Major - America",
+    "reason": "Threshold: Below 1%"
+  },
+  {
+    "_id": "5dfcf0bb50be790f59fe1c17",
+    "alert": "Breach",
+    "type": "Portfolio",
+    "ruleName": "Takeover: Belgium",
+    "reason": "Close to:5%"
+  },
+  {
+    "_id": "5dfcf0bb67c3a107e5a0eefe",
+    "alert": "Disclosure",
+    "type": "Portfolio",
+    "ruleName": "Issuer Limits",
+    "reason": "Close to:5%"
+  },
+  {
+    "_id": "5dfcf0bbc90af9e884044724",
+    "alert": "Unknown",
+    "type": "Portfolio",
+    "ruleName": "Major - America",
+    "reason": "Close to:5%"
+  },
+  {
+    "_id": "5dfcf0bbfe547ee20d76b683",
+    "alert": "Unknown",
+    "type": "Entity",
+    "ruleName": "Major - America",
+    "reason": "Threshold: Below 3%"
+  },
+  {
+    "_id": "5dfcf0bbfd013b376456e4f9",
+    "alert": "Disclosure",
+    "type": "Entity",
+    "ruleName": "Major - America",
+    "reason": "Missing Data"
+  },
+  {
+    "_id": "5dfcf0bbeaee7e1d30164905",
+    "alert": "Warning",
+    "type": "Portfolio",
+    "ruleName": "Issuer Limits",
+    "reason": "Threshold: Below 3%"
+  },
+  {
+    "_id": "5dfcf0bb6a0f174b9fab910b",
+    "alert": "Breach",
+    "type": "Portfolio",
+    "ruleName": "Issuer Limits",
+    "reason": "Close to:5%"
+  },
+  {
+    "_id": "5dfcf0bb88b28b4f19a99231",
+    "alert": "Disclosure",
+    "type": "Umbrella",
+    "ruleName": "Major - America",
+    "reason": "Missing Data"
+  },
+  {
+    "_id": "5dfcf0bb48040df61e0fef0d",
+    "alert": "Disclosure",
+    "type": "Portfolio",
+    "ruleName": "Major - America",
+    "reason": "Missing Data"
+  },
+  {
+    "_id": "5dfcf0bbd2c55b1dea77c81a",
+    "alert": "Warning",
+    "type": "Portfolio",
+    "ruleName": "Issuer Limits",
+    "reason": "Threshold: Below 3%"
+  },
+  {
+    "_id": "5dfcf0bbab9cb5d7bdc5cdbe",
+    "alert": "Warning",
+    "type": "Entity",
+    "ruleName": "Takeover: Belgium",
+    "reason": "Close to:5%"
+  },
+  {
+    "_id": "5dfcf0bb82e91eda3c3baf0d",
+    "alert": "Unknown",
+    "type": "Entity",
+    "ruleName": "Major - America",
+    "reason": "Threshold: Below 1%"
+  },
+  {
+    "_id": "5dfcf0bb52a8c5cf491ed9ae",
+    "alert": "Warning",
+    "type": "Umbrella",
+    "ruleName": "Issuer Limits",
+    "reason": "Threshold: Below 3%"
+  },
+  {
+    "_id": "5dfcf0bb09d43890703d86b4",
+    "alert": "Warning",
+    "type": "Entity",
+    "ruleName": "Takeover: Belgium",
+    "reason": "Threshold: Below 1%"
+  },
+  {
+    "_id": "5dfcf0bbd0b80b8d009af38f",
+    "alert": "Warning",
+    "type": "Umbrella",
+    "ruleName": "Issuer Limits",
+    "reason": "Missing Data"
+  }
+]
