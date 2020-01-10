@@ -1,47 +1,50 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Maverick
+##### A playground project for a web app & mobile app
 
-## Available Scripts
+The main focus of this project is not what the actual application is but to practice and understand everything that is involved
+in creating and releasing an application as a web app and as a mobile app. For example:
+- How to support both web app and mobile app in the most efficient way
+- Mobile testing farms, and how to debug?
+- How to derive a mobile/tablet support matrix
+- App store Release process - both Google PlayStore and Apple App Store
 
-In the project directory, you can run:
+Once this is done I shall play with some other things like:
+- GraphQL, Apollo 
+- PWA
+- SSR
 
-### `yarn start`
+### Instructions
 
+`npm install`
+
+`npm start`<br />
 Runs the app in the development mode.<br />
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
-
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
+`npm build`<br />
 Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `yarn eject`
+### Notes
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Initial project setup:<br/>
+- Used [Create React App](https://github.com/facebook/create-react-app) and ejected straight away.
+- Added prettier 
+- Added normalize.css with this reset https://zellwk.com/blog/css-reset/
+- Decided no typescript and no unit tests as this is just a playground project.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Built a very quick UI:<br/>
+- Used grid for responsive layout
+- https://react-kawaii.now.sh/ for some quick fun graphics
+- Used css-modules for scoped styles (https://github.com/css-modules/css-modules)
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
+### MISC NOTES TO BE REMOVED
+- Use fontawesome
+https://dev.to/weeb/font-awesome-guide-and-useful-tricks-you-might-ve-not-known-about-until-now-o15
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+- https://www.json-generator.com/# for generating json data
 
 ### Code Splitting
 
@@ -66,3 +69,4 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `yarn build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+

@@ -1,0 +1,17 @@
+.container {
+    width: 100%;
+    text-align: center;
+}
+
+.itemsContainer {
+    display: grid;
+    max-width: 80em;
+    margin: auto;
+    padding: 10px 0;
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    grid-template-rows: repeat(auto-fit, 220px);
+    column-gap: 10px;
+    row-gap: 10px;
+    justify-content: center;
+    justify-items: center;
+}
