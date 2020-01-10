@@ -21,8 +21,8 @@ const Catalog = () => {
     <div className={styles.container}>
       <span className={styles.title}>Catalog of Characters</span>
       <div className={styles.itemsContainer}>
-        {KAWAII_CHARACTERS.map(val => {
-          return <Item character={val} />;
+        {KAWAII_CHARACTERS.map((val, i) => {
+          return <Item key={i} character={val} />;
         })}
       </div>
     </div>

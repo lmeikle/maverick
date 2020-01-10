@@ -26,7 +26,7 @@ Builds the app for production to the `build` folder.<br />
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
 ### Notes
-
+          
 Initial project setup:<br/>
 - Used [Create React App](https://github.com/facebook/create-react-app) and ejected straight away.
 - Added prettier 
@@ -43,6 +43,7 @@ Built a very quick UI:<br/>
 - Used ems for sizing
 - This is really cool for viewing different screen sizes https://chrome.google.com/webstore/detail/responsive-viewer/inmopeiepgfljkpkidclfgbgbmfcennb
 
+Got it working IE11! 
 
 
 ### MISC NOTES TO BE REMOVED
@@ -75,3 +76,23 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
 
+ /* {
+              test: /\.(js|mjs|jsx|ts|tsx)$/,
+              include: [
+                path.resolve(__dirname, '../node_modules/ansi-regex'),
+                path.resolve(__dirname, '../node_modules/ansi-styles'),
+                path.resolve(__dirname, '../node_modules/chalk'),
+                path.resolve(__dirname, '../node_modules/react-dev-utils'),
+              ],
+              loader: 'babel-loader',
+              options: {
+                presets: ['@babel/preset-env'],
+                // This is a feature of `babel-loader` for webpack (not Babel itself).
+                // It enables caching results in ./node_modules/.cache/babel-loader/
+                // directory for faster rebuilds.
+                cacheDirectory: true,
+                // See #6846 for context on why cacheCompression is disabled
+                cacheCompression: false,
+                compact: isEnvProduction,
+              },
+            },*/
