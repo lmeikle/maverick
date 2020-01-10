@@ -44,7 +44,7 @@ Built a very quick UI:<br/>
 - This is really cool for viewing different screen sizes https://chrome.google.com/webstore/detail/responsive-viewer/inmopeiepgfljkpkidclfgbgbmfcennb
 
 Got it working IE11! 
-
+- Grid isn't fully supported in ie11, so converted to flex
 
 ### MISC NOTES TO BE REMOVED
 - Use fontawesome

@@ -9,14 +9,24 @@
 }
 
 .itemsContainer {
-    display: grid;
+    display: flex;
+    flex-wrap: wrap;
     max-width: 80em;
-    margin: auto;
     padding: 0.5em 0;
-    grid-template-columns: repeat(auto-fit, minmax(14em, 1fr));
-    grid-template-rows: repeat(auto-fit, 13.5em);
-    column-gap: 0.5em;
-    row-gap: 0.5em;
+    margin: auto;
     justify-content: center;
     justify-items: center;
+}
+
+/**
+ * Just playing with grid, not really needed, flex is suitable for this
+ */
+@supports (display: grid) {
+    .itemsContainer {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(14em, 1fr));
+        grid-template-rows: repeat(auto-fit, 13.5em);
+        column-gap: 0.5em;
+        row-gap: 0.5em;
+    }
 }
