@@ -43,7 +43,8 @@ Built a very quick UI:<br/>
 - Used ems for sizing
 - This is really cool for viewing different screen sizes https://chrome.google.com/webstore/detail/responsive-viewer/inmopeiepgfljkpkidclfgbgbmfcennb
 
-Got it working IE11! 
+Got it working IE11!
+- Editing the browserlist, adding polyfills AND swapping the hot server were the key.
 - Grid isn't fully supported in ie11, so converted to flex
 
 ### MISC NOTES TO BE REMOVED
