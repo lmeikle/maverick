@@ -46,6 +46,7 @@ Built a very quick UI:<br/>
 Got it working IE11!
 - Editing the browserlist, adding polyfills AND swapping the hot server were the key.
 - Grid isn't fully supported in ie11, so converted to flex
+- Added postcss-css-variables so css variables work in ie11
 
 ### MISC NOTES TO BE REMOVED
 - Use fontawesome
