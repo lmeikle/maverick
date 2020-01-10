@@ -31,7 +31,7 @@ Initial project setup:<br/>
 - Used [Create React App](https://github.com/facebook/create-react-app) and ejected straight away.
 - Added prettier 
 - Added normalize.css with this reset https://zellwk.com/blog/css-reset/
-- Decided no typescript and no unit tests as this is just a playground project.
+- I won't be using typescript nor unit tests as this is just a playground project (and practising these are covered by my professional work).
 
 Built a very quick UI:<br/>
 - Used grid for responsive layout

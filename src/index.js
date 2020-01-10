@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import 'typeface-montserrat';
 import './reset.css';
 import 'normalize.css';
 import '@fortawesome/fontawesome-free/css/all.min.css';
