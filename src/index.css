@@ -1,5 +1,14 @@
 html {
   height: 100%;
+  --font-size: 16px;
+  font-size: var(--font-size); /** just playing with css variables */
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  html {
+    --font-size: 10px;
+  }
 }
 
 body {
