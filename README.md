@@ -17,11 +17,11 @@ Once this is done I shall play with some other things like:
 
 `npm install`
 
-`npm start`<br />
+`npm run start`<br />
 Runs the app in the development mode.<br />
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-`npm build`<br />
+`npm run build`<br />
 Builds the app for production to the `build` folder.<br />
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
@@ -30,13 +30,18 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 Initial project setup:<br/>
 - Used [Create React App](https://github.com/facebook/create-react-app) and ejected straight away.
 - Added prettier 
-- Added normalize.css with this reset https://zellwk.com/blog/css-reset/
+- Added normalize.css then realized CRA uses postcss-normalize which is quite nice so removed my stuff.
+- Added this reset https://zellwk.com/blog/css-reset/ 
 - I won't be using typescript nor unit tests as this is just a playground project (and practising these are covered by my professional work).
 
 Built a very quick UI:<br/>
 - Used grid for responsive layout
 - https://react-kawaii.now.sh/ for some quick fun graphics
 - Used css-modules for scoped styles (https://github.com/css-modules/css-modules)
+- Used grid for the layout (although flex here would have worked too)
+- Added a montserrat font
+- Used ems for sizing
+- This is really cool for viewing different screen sizes https://chrome.google.com/webstore/detail/responsive-viewer/inmopeiepgfljkpkidclfgbgbmfcennb
 
 
 
