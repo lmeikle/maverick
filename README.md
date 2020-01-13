@@ -43,10 +43,14 @@ Built a very quick UI:<br/>
 - Used ems for sizing
 - This is really cool for viewing different screen sizes https://chrome.google.com/webstore/detail/responsive-viewer/inmopeiepgfljkpkidclfgbgbmfcennb
 
-Got it working IE11!
+Got it working IE11!<br/>
 - Editing the browserlist, adding polyfills AND swapping the hot server were the key.
 - Grid isn't fully supported in ie11, so converted to flex
 - Added postcss-css-variables so css variables work in ie11
+
+BEM<br/>
+- Use BEM CSS conventions (https://medium.com/trabe/a-comprehensive-guide-to-using-bem-with-react-14d00c199e0d)
+- Added stylelint just using with the IDE for now (webpack had an issue)
 
 ### MISC NOTES TO BE REMOVED
 - Use fontawesome

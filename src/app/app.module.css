@@ -1,6 +1,6 @@
-.app {
+.App {
   min-height: 100%;
   text-align: center;
-  background-color: #FFB901; /* For browsers that do not support gradients */
-  background-image: linear-gradient(#FFB901, #FFC602, #FED61D);
+  background-color: #ffb901; /* For browsers that do not support gradients */
+  background-image: linear-gradient(#ffb901, #ffc602, #fed61d);
 }

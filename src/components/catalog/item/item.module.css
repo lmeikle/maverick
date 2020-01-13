@@ -1,28 +1,30 @@
-.item {
-    display: flex;
-    justify-content: center;
-    width: 13.5em;
-    height: 13.5em;
-    border: 1px solid black;
-    border-radius: 0.3em;
-    padding: 0.5em;
-    margin: 0.5em;
+.Item {
+  display: flex;
+  justify-content: center;
+  width: 13.5em;
+  height: 13.5em;
+  border: 1px solid black;
+  border-radius: 0.3em;
+  padding: 0.5em;
+  margin: 0.5em;
 }
 
 @supports (display: grid) {
-    .item {
-        margin: 0;
-    }
+  .Item {
+    margin: 0;
+  }
 }
 
-.item div {
-    max-width: 100%;
-    max-height: 100%;
-    width: 100%;
-    height: 100%;
+/* postcss-bem-linter: ignore */
+.Item div {
+  max-width: 100%;
+  max-height: 100%;
+  width: 100%;
+  height: 100%;
 }
 
-.item svg {
-    width: 100%;
-    height: 100%;
+/* postcss-bem-linter: ignore */
+.Item svg {
+  width: 100%;
+  height: 100%;
 }

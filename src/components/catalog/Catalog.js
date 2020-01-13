@@ -18,9 +18,9 @@ const KAWAII_CHARACTERS = [
 
 const Catalog = () => {
   return (
-    <div className={styles.container}>
-      <span className={styles.title}>Catalog of Characters</span>
-      <div className={styles.itemsContainer}>
+    <div className={styles.Catalog}>
+      <span className={styles.Catalog_title}>Catalog of Characters</span>
+      <div className={styles.Catalog_itemsContainer}>
         {KAWAII_CHARACTERS.map((val, i) => {
           return <Item key={i} character={val} />;
         })}

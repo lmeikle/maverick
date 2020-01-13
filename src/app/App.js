@@ -4,7 +4,7 @@ import Catalog from '../components/catalog/Catalog';
 
 function App() {
   return (
-    <div className={styles.app}>
+    <div className={styles.App}>
       <Catalog />
     </div>
   );

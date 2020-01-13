@@ -1,32 +1,32 @@
-.container {
-    width: 100%;
-    text-align: center;
+.Catalog {
+  width: 100%;
+  text-align: center;
 }
 
-.title {
-    font-size: 2em;
-    font-weight: bold;
+.Catalog_title {
+  font-size: 2em;
+  font-weight: bold;
 }
 
-.itemsContainer {
-    display: flex;
-    flex-wrap: wrap;
-    max-width: 80em;
-    padding: 0.5em 0;
-    margin: auto;
-    justify-content: center;
-    justify-items: center;
+.Catalog_itemsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 80em;
+  padding: 0.5em 0;
+  margin: auto;
+  justify-content: center;
+  justify-items: center;
 }
 
 /**
  * Just playing with grid, not really needed, flex is suitable for this
  */
 @supports (display: grid) {
-    .itemsContainer {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(14em, 1fr));
-        grid-template-rows: repeat(auto-fit, 13.5em);
-        column-gap: 0.5em;
-        row-gap: 0.5em;
-    }
+  .Catalog_itemsContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(14em, 1fr));
+    grid-template-rows: repeat(auto-fit, 13.5em);
+    column-gap: 0.5em;
+    row-gap: 0.5em;
+  }
 }
