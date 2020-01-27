@@ -24,11 +24,6 @@ jobs:
         npm test
       env:
         CI: true
-                
-  deploy:
-    runs-on: ubuntu-latest
-    needs: build
-    steps:
     - name: Publish to AWS S3
       uses: opspresso/action-s3-sync@master
       env:
