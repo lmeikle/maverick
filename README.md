@@ -66,6 +66,12 @@ PWA<br/>
 However as this is not using localhost (and not https) the PWA does not get enabled.
 Could try setting up a proxy to get around this.
 
+Deployed to AWS<br/>
+- Built and deployed to an S3 bucket via a github action
+- Created the S3 bucket and the CloudFront distribution where I set redirect http to https. 
+  However I couldn't setup the SSL in order to load on https without getting a proper domain, so I have left that bit for now.
+- http://lmeikle-maverick.s3-website.eu-west-2.amazonaws.com
+
 ### MISC NOTES TO BE REMOVED
 - Use fontawesome
 https://dev.to/weeb/font-awesome-guide-and-useful-tricks-you-might-ve-not-known-about-until-now-o15
