@@ -52,6 +52,20 @@ BEM<br/>
 - Use BEM CSS conventions (https://medium.com/trabe/a-comprehensive-guide-to-using-bem-with-react-14d00c199e0d)
 - Added stylelint just using with the IDE for now (webpack had an issue)
 
+PWA<br/>
+- I updated the manifest.json and registered the service worker.
+- To test it I need to run npm run build and serve the content on a server to test it
+(I could enable it in development mode but it might get annoying/make things hard to debug due to the caching)
+
+    `npm run build`<br/>
+    `npm install serve --dev`<br/>
+    `npm run serve:build` (I added this command to package.json) <br/>
+    http://localhost:5000/
+
+- To test on my phone use the network url eg: http://xxx.xxx.x.xxx:5000
+However as this is not using localhost (and not https) the PWA does not get enabled.
+Could try setting up a proxy to get around this.
+
 ### MISC NOTES TO BE REMOVED
 - Use fontawesome
 https://dev.to/weeb/font-awesome-guide-and-useful-tricks-you-might-ve-not-known-about-until-now-o15
