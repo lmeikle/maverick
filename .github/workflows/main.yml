@@ -33,3 +33,7 @@ jobs:
           FROM_PATH: "./build"
           DEST_PATH: "s3://lmeikle-maverick/"
           OPTIONS: "--acl public-read"
+    - name: Run Lighthouse
+      uses: foo-software/lighthouse-check-action@master
+      with:
+        urls: 'http://lmeikle-maverick.s3-website.eu-west-2.amazonaws.com'
